@@ -1,0 +1,9 @@
+*.sql
+.htaccess*
+wp-config.php
+phpinfo.php*
+*cache
+*.zip
+*.tar
+*.tar.gz
+*.gz
