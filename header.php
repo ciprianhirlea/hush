@@ -64,7 +64,8 @@
 							<div class="email-address"><a href="mailto:hushaesthetics@gmail.com">hushaesthetics@gmail.com</a></div>
 
 							<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter" style="margin-right:8px"></i></a>
-							<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f"></i></i></a>
+							<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f" style="margin-right:8px"></i></i></a>
+							<a href="https://www.instagram.com/beverley.hushaesthetics"><i class="fab fa-instagram"></i></i></a>
 						</div>
 
 						<nav>
@@ -125,6 +126,7 @@
 
 						<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter"></i></a>
 						<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f"></i></i></a>
+						<a href="https://www.instagram.com/beverley.hushaesthetics"><i class="fab fa-instagram"></i></i></a>
 						
 					</div>
 
