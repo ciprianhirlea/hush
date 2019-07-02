@@ -4,6 +4,7 @@
  *  URL: blowmedia.co.uk
  *  Custom functions, support, custom post types and more.
  */
+//Control area for contact details//
 
 /**
  * Removed WP jquery if on normal page
@@ -222,6 +223,20 @@ function arphabet_widgets_init() {
     ) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
+
+// Add Contact Details field
+if( function_exists('acf_add_options_page') ) {
+ 
+	$option_page = acf_add_options_page(array(
+		'page_title' 	=> 'Contact Details',
+		'menu_title' 	=> 'Contact Details',
+		'menu_slug' 	=> 'contact-details-settings',
+		'icon_url'		=> 'dashicons-format-status',
+		'capability' 	=> 'edit_posts',
+		'redirect' 		=> false
+	));
+ 
+}
 
 //Custom post type featured testimonials//
 add_action( 'init', 'create_featured_testimonial_type' );

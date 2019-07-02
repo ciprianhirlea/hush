@@ -39,12 +39,13 @@
 
 					<?php while (have_posts()) : the_post(); ?>
 
-						<span>T.</span><?php the_field('telephone') ?>
+						<span>T.</span><a href="tel:<?php the_field('contact_details_tel', 'option'); ?>"><?php the_field('contact_details_tel_style', 'option'); ?></a>
 						<br><br>
-						<span>E.</span><a href="mailto:hushaesthetics@gmail.com"><?php the_field('email') ?></a>
+						<span>E.</span><a href="mailto:<?php the_field('contact_details_email', 'option'); ?>"><?php the_field('contact_details_email', 'option'); ?></a>
 						<br><br>
-						<a target="_blank" href="https://twitter.com/hushaesthetics"><div class="twitter"></div></a><a target="_blank" href="https://www.facebook.com/SeAestheticBeauty"><div class="facebook"></div></a>
-
+						<a href="<?php the_field('contact_details_tw', 'option'); ?>"><i class="fab fa-twitter" style="margin-right:8px"></i></a>
+						<a href="<?php the_field('contact_details_fb', 'option'); ?>"><i class="fab fa-facebook-f" style="margin-right:8px"></i></i></a>
+						<a href="<?php the_field('contact_details_ig', 'option'); ?>"><i class="fab fa-instagram"></i></i></a>
 					<?php endwhile ?>
 
 				</div>

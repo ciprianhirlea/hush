@@ -60,12 +60,12 @@
 
 					<div class="large-10 small-10 columns no-padding">
 						<div id="header-contact-details">
-							<div class="phone-number"><a href="tel:+447968498223">07968 498 223</a></div> 
-							<div class="email-address"><a href="mailto:hushaesthetics@gmail.com">hushaesthetics@gmail.com</a></div>
+							<div class="phone-number"><a href="tel:<?php the_field('contact_details_tel', 'option'); ?>"><?php the_field('contact_details_tel_style', 'option'); ?></a></div> 
+							<div class="email-address"><a href="mailto:<?php the_field('contact_details_email', 'option'); ?>"><?php the_field('contact_details_email', 'option'); ?></a></div>
 
-							<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter" style="margin-right:8px"></i></a>
-							<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f" style="margin-right:8px"></i></i></a>
-							<a href="https://www.instagram.com/beverley.hushaesthetics"><i class="fab fa-instagram"></i></i></a>
+							<a href="<?php the_field('contact_details_tw', 'option'); ?>"><i class="fab fa-twitter" style="margin-right:8px"></i></a>
+							<a href="<?php the_field('contact_details_fb', 'option'); ?>"><i class="fab fa-facebook-f" style="margin-right:8px"></i></i></a>
+							<a href="<?php the_field('contact_details_ig', 'option'); ?>"><i class="fab fa-instagram"></i></i></a>
 						</div>
 
 						<nav>
@@ -121,12 +121,12 @@
 
 					<div id="header-contact-details" class="mobile">
 
-						<a href="tel:+447968498223"><i class="fas fa-phone"></i></a>
-						<a href="mailto:hushaesthetics@gmail.com"><i class="fas fa-envelope" ></i></a>
+						<a href="tel:<?php the_field('contact_details_tel', 'option'); ?>"><i class="fas fa-phone"></i></a>
+						<a href="mailto:<?php the_field('contact_details_email', 'option'); ?>"><i class="fas fa-envelope" ></i></a>
 
-						<a href="https://twitter.com/hushaesthetics"><i class="fab fa-twitter"></i></a>
-						<a href="https://www.facebook.com/SeAestheticBeauty"><i class="fab fa-facebook-f"></i></i></a>
-						<a href="https://www.instagram.com/beverley.hushaesthetics"><i class="fab fa-instagram"></i></i></a>
+						<a href="<?php the_field('contact_details_tw', 'option'); ?>"><i class="fab fa-twitter"></i></a>
+						<a href="<?php the_field('contact_details_fb', 'option'); ?>"><i class="fab fa-facebook-f"></i></i></a>
+						<a href="<?php the_field('contact_details_ig', 'option'); ?>"><i class="fab fa-instagram"></i></i></a>
 						
 					</div>
 
