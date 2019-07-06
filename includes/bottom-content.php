@@ -89,7 +89,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/?page_id=28">
+		<a href="<?php bloginfo('url')?>/contact-us">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -171,7 +171,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/?page_id=28">
+		<a href="<?php bloginfo('url')?>/contact-us">
 
 			<div class="bottom-buttons-bg-color">
 
@@ -255,7 +255,7 @@
 
 	<div id="bottom-buttons" class="large-4 small-12 columns no-padding dermal">
 
-		<a href="<?php bloginfo('url')?>/?page_id=28">
+		<a href="<?php bloginfo('url')?>/contact-us">
 
 			<div class="bottom-buttons-bg-color">
 
