@@ -47,20 +47,20 @@
 
 ## ChangeLog
 
-### 1.4.8
+### 1.4.8 (19 July 2019)
 * Updated Changelog and README
 
-### 1.4.7
+### 1.4.7 (18 July 2019)
 * Improved Twitter Feed styling
 
-### 1.4.6
+### 1.4.6 (06 July 2019)
 * Improved footer link dividers to prevent the from being commented out by WordPress
 * Changed links to CTA in the footer area
 
-### 1.4.5
+### 1.4.5 (03 July 2019)
 * Contact details and social media addresses are now editable through the CMS
 
-### 1.4.4
+### 1.4.4 (01 July 2019)
 * Replaced Gravity Forms with CF7
 * Improved CSS to adapt new CF7 forms
 * Added new Social Media platform to the website
